@@ -70,6 +70,7 @@ main{
     overflow-y: auto;
 }
 
+/* CONTAINER JUMBO */
 .container-jumbo {
     background-color: #1B72E8;
 }
@@ -78,6 +79,24 @@ main{
     background-color: #165BBA !important;
     font-size: 15px;
     font-weight: 400;
+}
+
+/* CONTAINER CLASS */
+.fa-code{
+    background-color: #F26551;
+    border-radius: 100%;
+    padding: 18px 8px;
+}
+
+.fa-pencil, .fa-trash{
+    border: 1px solid gray;
+    padding: 10px 8px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.table th:nth-child(1), .table td:nth-child(1){
+    width: 40%;
 }
 
 
