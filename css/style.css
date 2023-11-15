@@ -55,7 +55,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    font-size: 25px;
+    font-size: 15px;
     color: white;
 }
 
@@ -69,6 +69,17 @@ main{
     display: flex;
     overflow-y: auto;
 }
+
+.container-jumbo {
+    background-color: #1B72E8;
+}
+
+.jumbo-postit{
+    background-color: #165BBA !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+
 
 .col-todo{
     height: 150px;
@@ -100,22 +111,17 @@ main{
     height: 345px;
 }
 
-.container-jumbo{
-    background-color: #1B72E8;
-    height: 100px;
-}
-
 @media screen and (min-width: 991px) {
     #sidebar {
-        width: 150px;
-    }
-
-    #content {
-        width: calc(100vw - 150px);
+        width: 120px;
     }
 
     .main-content{
-        margin: 75px 0 0 150px;
+        margin: 75px 0 0 120px;
+    }
+
+    .offcanvas.offcanvas-end{
+        width: 50%;
     }
 
 }    
