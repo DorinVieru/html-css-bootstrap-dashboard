@@ -110,6 +110,8 @@ main{
     height: 150px;
 }
 
+
+/* MADIA QUERY DESKTOP */
 @media screen and (min-width: 991px) {
     #sidebar {
         width: 120px;
