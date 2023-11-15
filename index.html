@@ -20,85 +20,102 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-2 mt-2">
-                        <div class="content-header"></div>
+                        <div class="d-block d-lg-none">
+                            <img class="img-fluid img-logo" src="./img/mobile-logo.png" alt="mobile-logo">
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <img class="img-fluid" src="./img/logo.svg" alt="logo">
+                        </div>
                     </div>
-                    <div class="col-8 mt-2">
-                        <div class="content-header"></div>
+                    <div class="col-9 col-lg-8 mt-2">
+                        <div>
+                            <div class="input-group">
+                                <span class="input-group-text my-input-form" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="text" class="form-control border-start-0 my-form" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-2 mt-2">
-                        <div class="content-header"></div>
+                    <div class="col-1 col-lg-2 mt-2 text-end d-flex align-items-center justify-content-around">
+                        <div>
+                            <i class="fa-solid fa-list d-none d-lg-block fa-lg text-body-secondary"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-question d-none d-lg-block fa-lg"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block fa-lg text-body-secondary"></i>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle button-header" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell fa-lg"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">Proilo</button></li>
+                                <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                                <li><button class="dropdown-item" type="button">Logout</button></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
             </header>
 
                 <!------- MAIN ------->
-            <main>
-
-                <!------- SIDEBAR ------->
-                <div id="sidebar">
+            <div class="d-flex">
+                <main>
                 
-                    <!-- TOP SIDEBAR -->
-                    <div class="top-sidebar">
-                        <i class="fa-solid fa-house text-white"></i>
+                    <!------- SIDEBAR ------->
+                    <div id="sidebar">
+                
+                        <!-- TOP SIDEBAR -->
+                        <div class="top-sidebar">
+                            <i class="fa-solid fa-house text-white"></i>
+                        </div>
+                
+                        <!-- BOTTOM SIDEBAR -->
+                        <div class="bottom-sidebar">
+                
+                        </div>
                     </div>
                 
-                    <!-- BOTTOM SIDEBAR -->
-                    <div class="bottom-sidebar">
+                    <div class="main-content">
                 
-                    </div>
-                </div>
-
-                <div class="main-content">
-
-                    <!-- CONTAINER JUMBO -->
-                    <div class="container-fluid container-jumbo">
-                        <div class="row">
-                            <div class="col-4"></div>
-                            <div class="col-4"></div>
-                            <div class="col-4"></div>
+                        <!-- CONTAINER JUMBO -->
+                        <div class="container-fluid container-jumbo">
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4"></div>
+                                <div class="col-4"></div>
+                            </div>
                         </div>
-                    </div>
-
-                    <!-- CONTAINER CLASS -->
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-lg-2 gy-3">
-                                <div class="content-class rounded-2"></div>
+                
+                        <!-- CONTAINER CLASS -->
+                        <div class="container-fluid">
+                            <div class="row mb-3">
+                                <div class="col-12 col-lg-9 gy-3">
+                                    <div class="content-class rounded-2"></div>
+                                </div>
+                
+                                <!-- CONTAINER TODO -->
+                                <div class="col-12 col-lg-3 gy-3 col-todo">
+                                    <div class="content-todo rounded-2"></div>
+                
+                                    <!-- CONTAINER GRAPHIC -->
+                                    <div class="col-12 gy-3">
+                                        <div class="content-graphic rounded-2"></div>
+                                    </div>
+                                </div>
+                
+                                <!-- CONTAINER FAQ -->
+                                <div class="col-12 col-lg-9 gy-3">
+                                    <div class="content-faq rounded-2"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- CONTAINER TODO -->
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-lg-3 order-lg-1 gy-3">
-                                <div class="content-todo rounded-2"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- CONTAINER FAQ -->
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-lg-2 order-lg-3 gy-3">
-                                <div class="content-faq rounded-2"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-
-                    <!-- CONTAINER GRAPHIC -->
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 col-lg-3 order-lg-2 gy-3">
-                                <div class="content-graphic rounded-2"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>     
+                </main>
+            </div>
 
     <!------- SCRIPT BOOTSTRAP ------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
